@@ -61,5 +61,5 @@ for i in range(countTotal):
   if res[1]:
     count2 = count2 + 1    
     
-print('# of winning when sticking with the first pick: ' + str(count1) + ' / ' + str(countTotal) + ' (' + str(round(count1 * 100 / countTotal)) + '%)')
-print('# of winning when switching pick: ' + str(count2) + ' / ' + str(countTotal) + ' (' + str(round(count2 * 100 / countTotal)) + '%)')
+print('# of winning when sticking with the first door: ' + str(count1) + ' / ' + str(countTotal) + ' (' + str(round(count1 * 100 / countTotal)) + '%)')
+print('# of winning when switching door: ' + str(count2) + ' / ' + str(countTotal) + ' (' + str(round(count2 * 100 / countTotal)) + '%)')
