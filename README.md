@@ -39,7 +39,7 @@ $$ P(B | S) = \frac{P(B) P(S | B)}{P(S)} $$
 
 where:
 
-$$ P(S) = P(B open | A pick) = \frac{1}{2} $$
+$$ P(S) = P(B \space open | A pick) = \frac{1}{2} $$
 
 $$ P(A) = P(B) = \frac{1}{3} $$
 
