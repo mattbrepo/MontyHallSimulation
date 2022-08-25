@@ -16,18 +16,18 @@ number of winning games when switching door: 66684 / 100000 (67%)
 ```
 
 ## Bayes' Theorem approach
-The [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem) can be used to tackle the Monty Hall problem in a more rigorous way. In particular, with the -so called- diachronic interpretation of the Bayes' Theorem. Diachronic refers to a phenomena that changes over time.
+The [Bayes' theorem](https://en.wikipedia.org/wiki/Bayes%27_theorem) can be used to tackle the Monty Hall problem in a more rigorous way. In particular, we can use the -so called- diachronic interpretation of the Bayes' Theorem. Diachronic refers to a phenomena that changes over time.
 
 $$ P(\textbf{H}|\textbf{D}) = \frac{P(\textbf{H}) P(\textbf{D} | \textbf{H})}{P(\textbf{D})} $$
 
-where
+where:
 
 - P(H | D) is the probability of the hypothesis after we see the data (**posterior**)
 - P(H) is the hypothesis before we see the data (**prior**)
 - P(D) is the probability of the data under any hypothesis (**normalizing constant**)
 - P(D | H) is the probability of the data under the hypothesis (**likelihood**)
 
-In this case, we can imagine the scenario (S) where the participant picked door A and the host of the game opened door C. Now, the question becomes: is the participant better of by sticking to door A than by switching to door B? Which in Bayes terms can be written as:
+In this case, we can imagine the scenario (S) where the participant picked door A and the host of the game opened door C. Now, the question becomes: is the participant better off switching to door B rather than sticking to door A? Which in Bayes terms can be written as:
 
 $$ P(B | S) > P(A | S) $$
 
@@ -39,7 +39,7 @@ $$ P(B | S) = \frac{P(B) P(S | B)}{P(S)} $$
 
 where:
 
-$$ P(S) = P(B\;open\;|\;A\;pick) = \frac{1}{2} $$
+$$ P(S) = P(B open | A pick) = \frac{1}{2} $$
 
 $$ P(A) = P(B) = \frac{1}{3} $$
 
