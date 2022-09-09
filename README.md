@@ -1,5 +1,5 @@
 # MontyHallSimulation
-Simulation of the [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem)
+Simulation of the [Monty Hall problem](https://en.wikipedia.org/wiki/Monty_Hall_problem).
 
 **Language: Python**
 
